@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartStudy | Resource Recommender</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span>🧠</span>
+            SmartStudy
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#recommend">Recommend</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                ✨ Smart Learning Assistant
+            </div>
+
+            <h1>
+                Find the Right Resources.
+                <span>Learn Smarter.</span>
+            </h1>
+
+            <p>
+                Get personalized study resources based on your
+                subject, topic, and learning level.
+            </p>
+
+            <a href="#recommend" class="hero-button">
+                Start Learning →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Recommendation Section -->
+    <section class="recommend-section" id="recommend">
+
+        <div class="section-heading">
+
+            <p class="section-label">SMART RECOMMENDER</p>
+
+            <h2>
+                What do you want to learn?
+            </h2>
+
+            <p>
+                Tell us about your learning needs and we'll find
+                suitable resources for you.
+            </p>
+
+        </div>
+
+
+        <div class="recommend-card">
+
+            <!-- Subject -->
+            <div class="form-group">
+
+                <label for="subject">
+                    Subject
+                </label>
+
+                <select id="subject">
+
+                    <option value="">
+                        Select Subject
+                    </option>
+
+                    <option value="python">
+                        Python
+                    </option>
+
+                    <option value="data-structures">
+                        Data Structures
+                    </option>
+
+                    <option value="algorithms">
+                        Algorithms
+                    </option>
+
+                    <option value="database">
+                        Database
+                    </option>
+
+                    <option value="web-development">
+                        Web Development
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Topic -->
+            <div class="form-group">
+
+                <label for="topic">
+                    Topic
+                </label>
+
+                <input
+                    type="text"
+                    id="topic"
+                    placeholder="Enter a topic..."
+                >
+
+            </div>
+
+
+            <!-- Difficulty -->
+            <div class="form-group">
+
+                <label for="level">
+                    Difficulty Level
+                </label>
+
+                <select id="level">
+
+                    <option value="">
+                        Select Level
+                    </option>
+
+                    <option value="beginner">
+                        Beginner
+                    </option>
+
+                    <option value="intermediate">
+                        Intermediate
+                    </option>
+
+                    <option value="advanced">
+                        Advanced
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Resource Type -->
+            <div class="form-group">
+
+                <label for="resourceType">
+                    Resource Type
+                </label>
+
+                <select id="resourceType">
+
+                    <option value="">
+                        Any Resource
+                    </option>
+
+                    <option value="video">
+                        📺 Videos
+                    </option>
+
+                    <option value="notes">
+                        📄 Notes
+                    </option>
+
+                    <option value="practice">
+                        💻 Practice
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Button -->
+            <button
+                class="recommend-button"
+                onclick="getRecommendations()"
+            >
+                ✨ Recommend Resources
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Results -->
+    <section class="results-section">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                RECOMMENDATIONS
+            </p>
+
+            <h2>
+                Recommended For You
+            </h2>
+
+        </div>
+
+
+        <div
+            id="results"
+            class="results-container"
+        >
+
+            <div class="empty-state">
+
+                <div class="empty-icon">
+                    🎯
+                </div>
+
+                <h3>
+                    Your recommendations will appear here
+                </h3>
+
+                <p>
+                    Select your subject and learning preferences
+                    to get started.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT SMARTSTUDY
+            </p>
+
+            <h2>
+                Study Less Randomly.
+                Learn More Effectively.
+            </h2>
+
+            <p>
+                SmartStudy helps students discover useful learning
+                resources by matching their study requirements with
+                relevant educational content.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 SmartStudy · Smart Learning Resource Recommender
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

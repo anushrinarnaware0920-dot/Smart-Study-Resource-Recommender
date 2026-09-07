@@ -1,0 +1,215 @@
+[
+    {
+        "title": "Python Basics",
+        "description": "Learn Python variables, data types, operators and basic syntax.",
+        "subject": "python",
+        "topic": "python",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 96,
+        "link": "https://www.youtube.com/results?search_query=python+basics"
+    },
+    {
+        "title": "Python Loops",
+        "description": "Understand for loops, while loops and loop control statements.",
+        "subject": "python",
+        "topic": "loops",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 95,
+        "link": "https://www.youtube.com/results?search_query=python+loops"
+    },
+    {
+        "title": "Python Functions",
+        "description": "Learn how to create and use functions in Python.",
+        "subject": "python",
+        "topic": "functions",
+        "level": "beginner",
+        "type": "notes",
+        "icon": "📘",
+        "match": 94,
+        "link": "https://www.google.com/search?q=python+functions+notes"
+    },
+    {
+        "title": "Python Practice Problems",
+        "description": "Practice beginner-friendly Python programming problems.",
+        "subject": "python",
+        "topic": "python",
+        "level": "beginner",
+        "type": "practice",
+        "icon": "💻",
+        "match": 91,
+        "link": "https://www.google.com/search?q=python+practice+problems"
+    },
+
+    {
+        "title": "Arrays and Linked Lists",
+        "description": "Learn arrays, linked lists and their basic operations.",
+        "subject": "data-structures",
+        "topic": "arrays",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 95,
+        "link": "https://www.youtube.com/results?search_query=arrays+linked+lists"
+    },
+    {
+        "title": "Stacks and Queues",
+        "description": "Understand stack and queue data structures with examples.",
+        "subject": "data-structures",
+        "topic": "stack",
+        "level": "intermediate",
+        "type": "notes",
+        "icon": "📘",
+        "match": 93,
+        "link": "https://www.google.com/search?q=stack+queue+data+structures"
+    },
+    {
+        "title": "Trees and Graphs",
+        "description": "Learn tree and graph concepts, traversal and applications.",
+        "subject": "data-structures",
+        "topic": "trees",
+        "level": "advanced",
+        "type": "video",
+        "icon": "📺",
+        "match": 92,
+        "link": "https://www.youtube.com/results?search_query=trees+graphs+data+structures"
+    },
+    {
+        "title": "Data Structures Practice",
+        "description": "Solve coding problems based on common data structures.",
+        "subject": "data-structures",
+        "topic": "data structures",
+        "level": "advanced",
+        "type": "practice",
+        "icon": "💻",
+        "match": 89,
+        "link": "https://www.google.com/search?q=data+structures+practice+problems"
+    },
+
+    {
+        "title": "Algorithms for Beginners",
+        "description": "Learn searching, sorting and basic algorithm concepts.",
+        "subject": "algorithms",
+        "topic": "algorithms",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 94,
+        "link": "https://www.youtube.com/results?search_query=algorithms+for+beginners"
+    },
+    {
+        "title": "Sorting Algorithms",
+        "description": "Understand bubble sort, selection sort, insertion sort and more.",
+        "subject": "algorithms",
+        "topic": "sorting",
+        "level": "beginner",
+        "type": "notes",
+        "icon": "📘",
+        "match": 96,
+        "link": "https://www.google.com/search?q=sorting+algorithms+notes"
+    },
+    {
+        "title": "Searching Algorithms",
+        "description": "Learn linear search and binary search with examples.",
+        "subject": "algorithms",
+        "topic": "searching",
+        "level": "intermediate",
+        "type": "video",
+        "icon": "📺",
+        "match": 95,
+        "link": "https://www.youtube.com/results?search_query=searching+algorithms"
+    },
+    {
+        "title": "Algorithm Practice",
+        "description": "Practice common algorithmic programming problems.",
+        "subject": "algorithms",
+        "topic": "algorithms",
+        "level": "advanced",
+        "type": "practice",
+        "icon": "💻",
+        "match": 90,
+        "link": "https://www.google.com/search?q=algorithm+practice+problems"
+    },
+
+    {
+        "title": "SQL and Database Basics",
+        "description": "Learn databases, tables, SQL queries and relationships.",
+        "subject": "database",
+        "topic": "database",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 95,
+        "link": "https://www.youtube.com/results?search_query=sql+database+basics"
+    },
+    {
+        "title": "SQL Queries",
+        "description": "Practice SELECT, INSERT, UPDATE, DELETE and filtering queries.",
+        "subject": "database",
+        "topic": "sql",
+        "level": "beginner",
+        "type": "practice",
+        "icon": "💻",
+        "match": 94,
+        "link": "https://www.google.com/search?q=SQL+practice+queries"
+    },
+    {
+        "title": "Database Normalization",
+        "description": "Understand normalization, keys and database design.",
+        "subject": "database",
+        "topic": "normalization",
+        "level": "advanced",
+        "type": "notes",
+        "icon": "📘",
+        "match": 91,
+        "link": "https://www.google.com/search?q=database+normalization+notes"
+    },
+
+    {
+        "title": "HTML and CSS Basics",
+        "description": "Learn how to structure and style modern web pages.",
+        "subject": "web-development",
+        "topic": "html",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 96,
+        "link": "https://www.youtube.com/results?search_query=html+css+beginners"
+    },
+    {
+        "title": "JavaScript Basics",
+        "description": "Learn JavaScript variables, functions, events and DOM manipulation.",
+        "subject": "web-development",
+        "topic": "javascript",
+        "level": "beginner",
+        "type": "video",
+        "icon": "📺",
+        "match": 95,
+        "link": "https://www.youtube.com/results?search_query=javascript+basics"
+    },
+    {
+        "title": "Responsive Web Design",
+        "description": "Learn how to create websites that work on mobile and desktop.",
+        "subject": "web-development",
+        "topic": "responsive design",
+        "level": "intermediate",
+        "type": "notes",
+        "icon": "📘",
+        "match": 92,
+        "link": "https://www.google.com/search?q=responsive+web+design+notes"
+    },
+    {
+        "title": "Web Development Practice",
+        "description": "Practice HTML, CSS and JavaScript through small projects.",
+        "subject": "web-development",
+        "topic": "web development",
+        "level": "advanced",
+        "type": "practice",
+        "icon": "💻",
+        "match": 90,
+        "link": "https://www.google.com/search?q=web+development+practice+projects"
+    }
+]
