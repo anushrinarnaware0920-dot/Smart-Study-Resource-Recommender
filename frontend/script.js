@@ -2,8 +2,7 @@
 // SmartStudy - Frontend API Connection
 // =========================================
 
-const API_URL = "http://127.0.0.1:5000/recommend";
-
+const API_URL = "https://smart-study-resource-recommender.onrender.com/recommend";
 
 // =========================================
 // Get Recommendations
